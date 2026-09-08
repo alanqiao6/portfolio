@@ -1,0 +1,19 @@
+.skills-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.skills-category {
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

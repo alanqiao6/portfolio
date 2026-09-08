@@ -1,0 +1,21 @@
+.about-bio {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: var(--text-dim);
+  max-width: 42rem;
+  white-space: pre-line;
+}
+
+.about-facts {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-faint);
+}
+
+.about-facts li::before {
+  content: '> ';
+  color: var(--accent);
+}
